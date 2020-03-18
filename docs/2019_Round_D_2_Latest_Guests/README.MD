@@ -1,0 +1,1 @@
+https://github.com/sanori/kickstart/tree/master/2019-round-D
