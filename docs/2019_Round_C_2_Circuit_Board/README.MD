@@ -25,6 +25,7 @@ good subrectangle 이란?
 위에 색칠한 예시는 good subrectangle 이 아니다.
 
 Limits
+
 1 <= T <= 50 (Test Case)
 
 1 <= R <= 300
