@@ -3,7 +3,9 @@
 문제 링크 : [2019_Round_C_2_Circuit Board](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff2/0000000000150aae)
 
 3개의 정수 R, C, K를 입력 받는다.
+
 R x C 행렬을 입력 받는다.
+
 Ex) R = 3, C = 3, K = 2
 
 ![table1](./table1.JPG)
