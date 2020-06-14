@@ -33,13 +33,13 @@ public class Solution {
 		Arrays.sort(v);
 		double[] partSum = makePartSum(v);
 
-		double curExpectedValue = sumOfElements(v) / n;
+		double nextExpectedValue = sumOfElements(v) / n;
 		for (int i = 0; i < k; i++) {
-			int idx = findFirstIdxBiggerThanVal(v, curExpectedValue);
+			int idx = findFirstIdxBiggerThanVal(v, nextExpectedValue);
 			double sumOfBigElements = partSum[n] - partSum[idx];
-			curExpectedValue = ((idx * curExpectedValue) / n) + (sumOfBigElements / n);
+			nextExpectedValue = ((idx * nextExpectedValue) / n) + (sumOfBigElements / n);
 		}
-		return curExpectedValue;
+		return nextExpectedValue;
 	}
 
 	private static double[] makePartSum(int[] v) {
