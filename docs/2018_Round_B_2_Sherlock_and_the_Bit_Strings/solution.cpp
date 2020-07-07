@@ -41,7 +41,7 @@ long long dfs(int ix, unsigned int s){
   
   if(!check(ix,s)) return ret=0;
   
-	if(ix == N) return ret=1;
+  if(ix == N) return ret=1;
   
   unsigned int ns = (s<<1) & 0xffff;
   ret = dfs(ix+1, ns);
